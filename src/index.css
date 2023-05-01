@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.emoji-mart-search {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 10px;
+}
+
+.emoji-mart-search input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.emoji-mart {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+
